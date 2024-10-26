@@ -1,0 +1,121 @@
+{
+  "profile": {
+    "username": "john_doe",
+    "id": "user123",
+    "email": "john.doe@example.com"
+  },
+  "menu": [
+    {
+      "id": "1",
+      "name": "COMPLAINT MANAGEMENT",
+      "path": "",
+      "parentID": "0",
+      "level": "0",
+      "icon": "",
+      "children": [
+        {
+          "id": "2",
+          "name": "Dashboard",
+          "path": "/dashboard",
+          "parentID": "1",
+          "level": "1",
+          "icon": "mdi mdi-gauge",
+          "children": []
+        },
+        {
+          "id": "3",
+          "name": "Tickets",
+          "path": "",
+          "parentID": "1",
+          "level": "1",
+          "icon": "mdi mdi-ticket",
+          "children": [
+            {
+              "id": "4",
+              "name": "All Tickets",
+              "path": "/ticket",
+              "parentID": "3",
+              "level": "2",
+              "icon": "",
+              "children": []
+            },
+            {
+              "id": "41",
+              "name": "Tickets_2",
+              "path": "/ticket2",
+              "parentID": "3",
+              "level": "2",
+              "icon": "",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Suppression Log",
+          "path": "",
+          "parentID": "1",
+          "level": "1",
+          "icon": "mdi mdi-timer-off",
+          "children": [
+            {
+              "id": "6",
+              "name": "All Suppression Requests",
+              "path": "/suppress",
+              "parentID": "5",
+              "level": "2",
+              "icon": "",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Release Log",
+          "path": "",
+          "parentID": "1",
+          "level": "1",
+          "icon": "mdi mdi-timer",
+          "children": [
+            {
+              "id": "8",
+              "name": "All Release Requests",
+              "path": "/release",
+              "parentID": "7",
+              "level": "2",
+              "icon": "",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Reports/Analytics",
+      "path": "",
+      "parentID": "0",
+      "level": "1",
+      "icon": "mdi mdi-book-multiple",
+      "children": [
+        {
+          "id": "10",
+          "name": "Reports",
+          "path": "",
+          "parentID": "9",
+          "level": "2",
+          "icon": ""
+        },
+        {
+          "id": "12",
+          "name": "Ticket 3",
+          "path": "/ticket3",
+          "parentID": "3",
+          "level": "2",
+          "icon": "",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
