@@ -1,13 +1,14 @@
 This is Simply Plug&Play type Dynamic Collapsible Side Navigation Bar Developed using React, Tailwind Css and bootstrap.
 You Simply need to pass the URL of Restfull api or for testing purpose or Demo Use this "./public/menuItems.json" or Modify it.
 as here
-"<NavSideBar Datas={{ logoText, personImg, url }} />"
+`<NavSideBar Datas={{ logoText, personImg, url }} />`
 The JSon Format should stictly be followed but still application will not collapse or crash.
 You can dynamically populate the Menus depending upon the login user, 
 ![image](https://github.com/user-attachments/assets/46ef5359-4dab-4c97-aa76-759597f28b6b)
 
 A sample Laravel PHP code for Restful api is given below.
 
+```markdown
 use App\Models\User;
 use Illuminate\Http\Request;
 class UserController extends Controller
