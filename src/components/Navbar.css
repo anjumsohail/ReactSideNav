@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  min-width: 30px; /* Minimum width to ensure it doesn't get too small */
+  max-width: 250px; /* Maximum width to ensure it doesn't get too large */
+  height: 100vh; /* Full height */
+  transition: width 2.5s ease-in-out; /* Smooth transition */
+  overflow: hidden;  Hide overflow when collapsed */
+  padding: auto;
+}
+.navbar.collapsed {
+  width: 40px;
+}
+.sidebar-nav > ul > li > a i {
+  width: 27px;
+  font-size: 19px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #1e9edf;
+}
+
+aside.navbar.h-screen {
+  padding: 0;
+}
